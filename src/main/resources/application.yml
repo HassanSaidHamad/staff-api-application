@@ -1,0 +1,22 @@
+# my secret
+jwt:
+#  secret: '[a-zA-Z0-9._]^+$Guideines646s466373s6788hkwsfTfsGyhG5GSUYUSJhgdhdSymbol$'
+  secret: '452948404D6251655468576D5A7134743777217A25432A462D4A614E64526655'
+
+server:
+  port: 8085
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/staff_api_application
+    password: never123%
+    username: hassan
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+
